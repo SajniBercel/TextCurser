@@ -37,9 +37,10 @@ int main(int argc, char **argv){
             case 'h':
             default:
                 printf("Usage: %s [-i] [-u <value>] [-l <value>] <type content here>\n"
-                        "-i         | Flipping the order\n"
-                        "-u <value> | Set the number of UPPER cased letters the span\n"
-                        "-l <value> | Set the number of LOWER cased letters the span\n", argv[0]);
+                        "-i            | Flipping the order\n"
+                        "-u <value ()> | Set the number of UPPER cased letters the span\n"
+                        "-l <value ()> | Set the number of LOWER cased letters the span\n" 
+                        "-n <value ()> | Resets the the sequence\n", argv[0]);
         }
     }
 
